@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "title": "Healthy Eating Habits — HS Defensive Lineman",
+  "summary": "Build functional trench mass, recover faster between lifts and practice, and avoid sluggish weight from empty calories.",
+  "portionRule": [
+    {
+      "macro": "Lean Protein",
+      "portion": "2 palms per meal",
+      "examples": "Chicken breast, lean ground beef (90/10+), eggs, Greek yogurt, turkey, salmon, tuna"
+    },
+    {
+      "macro": "Performance Carbs",
+      "portion": "2 fists around training",
+      "examples": "Oats, brown/white rice, whole-grain pasta, potatoes, sweet potatoes, fruit, whole-wheat wraps"
+    },
+    {
+      "macro": "Vegetables & Fruit",
+      "portion": "2 fists per meal",
+      "examples": "Spinach, broccoli, bell peppers, berries, bananas, oranges — fights inflammation & soreness"
+    },
+    {
+      "macro": "Healthy Fats",
+      "portion": "1-2 thumbs per meal",
+      "examples": "Avocado, olive oil, peanut/almond butter, mixed nuts, chia seeds"
+    }
+  ],
+  "habits": [
+    {
+      "id": "hab-hydration",
+      "title": "Hit 80-100 oz of water + electrolytes",
+      "timing": "All Day",
+      "detail": "Carry a 32 oz bottle at school and refill 3x. Add a pinch of salt or low-sugar electrolyte packet before practice.",
+      "whyItMatters": "Even 2% dehydration drops sprint speed, grip strength, and mental snap reaction."
+    },
+    {
+      "id": "hab-breakfast",
+      "title": "Never skip breakfast before school",
+      "timing": "Morning",
+      "detail": "Eat 30g+ protein + complex carbs within 60 min of waking (e.g., 3-4 eggs + oatmeal + banana).",
+      "whyItMatters": "Skipping breakfast forces your body to break down muscle tissue during morning classes and afternoon lifts."
+    },
+    {
+      "id": "hab-protein-meals",
+      "title": "Anchor every meal with 30-40g lean protein",
+      "timing": "Every Meal",
+      "detail": "Spread protein across 4 meals/snacks instead of trying to cram it all at dinner.",
+      "whyItMatters": "Steady amino acids rebuild muscle fibers damaged in heavy lower/upper body sessions."
+    },
+    {
+      "id": "hab-pre-workout",
+      "title": "Pre-training carb + light protein fuel",
+      "timing": "60-90 min Before",
+      "detail": "Banana with peanut butter, bagel with turkey, or Greek yogurt + berries before hitting the weight room or turf.",
+      "whyItMatters": "Tops off muscle glycogen so your 4th set and last 10-yard sprint stay explosive."
+    },
+    {
+      "id": "hab-post-lift",
+      "title": "Post-workout recovery within 45 minutes",
+      "timing": "Post-Session",
+      "detail": "Low-fat chocolate milk, whey/protein shake + fruit, or chicken & rice soon after training.",
+      "whyItMatters": "Jump-starts muscle repair and replenishes energy for the next school day."
+    },
+    {
+      "id": "hab-color-plate",
+      "title": "2+ servings of fruit or vegetables daily",
+      "timing": "Lunch & Dinner",
+      "detail": "Include greens or bright produce on your lunch tray and dinner plate.",
+      "whyItMatters": "Micronutrients, potassium, and antioxidants protect joints and reduce cramping."
+    },
+    {
+      "id": "hab-zero-junk",
+      "title": "Skip soda, energy drinks & fried fast food",
+      "timing": "Training Days",
+      "detail": "Swap sugary energy drinks and deep-fried sides for water, milk, grilled proteins, and baked potatoes.",
+      "whyItMatters": "Empty sugar and fried fats add slow body fat without adding force to your punch or get-off."
+    },
+    {
+      "id": "hab-sleep",
+      "title": "Lock in 8.5-9.5 hours of sleep",
+      "timing": "Night",
+      "detail": "Screens off 30 min before bed; optionally have Greek yogurt or milk if hungry late.",
+      "whyItMatters": "Growth hormone release and nervous-system recovery for explosive days happen during deep sleep."
+    }
+  ],
+  "sampleMealPlan": [
+    {
+      "slot": "Breakfast (Before School)",
+      "meal": "3-4 scrambled eggs, 2 slices whole-grain toast, 1 cup oatmeal with berries, 16 oz water"
+    },
+    {
+      "slot": "School Lunch",
+      "meal": "Double chicken/turkey sandwich or grilled chicken bowl with rice, black beans, and steamed veggies + apple"
+    },
+    {
+      "slot": "Pre-Practice / Lift (3:00 PM)",
+      "meal": "1 banana + 2 tbsp peanut butter or trail mix + 16-20 oz water with electrolytes"
+    },
+    {
+      "slot": "Post-Lift Dinner",
+      "meal": "6-8 oz lean beef/chicken/salmon, large baked potato or rice, broccoli/salad with olive oil, 12 oz milk"
+    },
+    {
+      "slot": "Evening Recovery Snack (Optional)",
+      "meal": "1 cup Greek yogurt or cottage cheese with pineapple or honey"
+    }
+  ]
+}

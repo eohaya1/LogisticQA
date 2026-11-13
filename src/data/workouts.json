@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "athleteProfile": "High School Defensive Lineman (DT / DE)",
+  "weeklySchedule": [
+    {
+      "day": "Mon",
+      "categoryId": "lower-body",
+      "label": "Lower Body Power",
+      "duration": "60 min"
+    },
+    {
+      "day": "Tue",
+      "categoryId": "explosive",
+      "label": "Explosive Get-Off",
+      "duration": "45 min"
+    },
+    {
+      "day": "Wed",
+      "categoryId": "running",
+      "label": "Speed & Agility",
+      "duration": "45 min"
+    },
+    {
+      "day": "Thu",
+      "categoryId": "upper-body",
+      "label": "Upper Body Trench",
+      "duration": "60 min"
+    },
+    {
+      "day": "Fri",
+      "categoryId": "explosive",
+      "label": "Explosive + Core",
+      "duration": "45 min"
+    },
+    {
+      "day": "Sat",
+      "categoryId": "running",
+      "label": "Tempo Conditioning",
+      "duration": "35 min"
+    },
+    {
+      "day": "Sun",
+      "categoryId": "recovery",
+      "label": "Rest, Mobility & Meal Prep",
+      "duration": "25 min"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "upper-body",
+      "title": "Upper Body",
+      "subtitle": "Hand Violence, Punch Power & Shoulder Armor",
+      "focus": "Pressing strength to lock out offensive linemen, pulling power to shed blocks, and shoulder stability for contact durability.",
+      "estimatedMinutes": 55,
+      "recommendedDays": ["Thursday"],
+      "exercises": [
+        {
+          "id": "ub-bench-press",
+          "name": "Barbell Bench Press",
+          "sets": 4,
+          "reps": "5-6",
+          "rest": "2 min",
+          "intensity": "Heavy (RPE 8)",
+          "cue": "Tuck elbows at 45°, drive feet into the turf, explode up like punching a blocker's chest plate."
+        },
+        {
+          "id": "ub-incline-db",
+          "name": "Incline Dumbbell Press",
+          "sets": 3,
+          "reps": "8-10",
+          "rest": "90 sec",
+          "intensity": "Moderate-Heavy",
+          "cue": "Control 2-second lowering; keep wrists stacked directly over elbows."
+        },
+        {
+          "id": "ub-pendlay-row",
+          "name": "Chest-Supported or Pendlay Barbell Row",
+          "sets": 4,
+          "reps": "6-8",
+          "rest": "90 sec",
+          "intensity": "Heavy",
+          "cue": "Snap bar to lower ribs with a flat back — builds pull-and-shed power."
+        },
+        {
+          "id": "ub-pullups",
+          "name": "Weighted Pull-Ups (or Lat Pulldown)",
+          "sets": 3,
+          "reps": "8-10",
+          "rest": "90 sec",
+          "intensity": "Moderate",
+          "cue": "Full hang at bottom, drive elbows down to pockets to anchor lats."
+        },
+        {
+          "id": "ub-db-ohp",
+          "name": "Half-Kneeling Dumbbell Overhead Press",
+          "sets": 3,
+          "reps": "8 / arm",
+          "rest": "75 sec",
+          "intensity": "Moderate",
+          "cue": "Brace glutes and abs; press straight up without arching lower back."
+        },
+        {
+          "id": "ub-face-pulls",
+          "name": "Band Face Pulls + External Rotation",
+          "sets": 3,
+          "reps": "15",
+          "rest": "45 sec",
+          "intensity": "Accessory / Prehab",
+          "cue": "Pull thumbs toward ears and pause 1 second to protect rotator cuffs from contact."
+        },
+        {
+          "id": "ub-farmers-carry",
+          "name": "Heavy Dumbbell Farmer's Carry",
+          "sets": 3,
+          "reps": "40 yd",
+          "rest": "90 sec",
+          "intensity": "Heavy Grip & Traps",
+          "cue": "Crush the handles, tall posture, brisk controlled steps — builds grip to rip off blocks."
+        }
+      ]
+    },
+    {
+      "id": "lower-body",
+      "title": "Lower Body",
+      "subtitle": "Hip Drive, Base Anchor & Double-Team Resistance",
+      "focus": "Ground-up force production so you stay low out of your stance, hold your gap against double teams, and drive blockers backward.",
+      "estimatedMinutes": 60,
+      "recommendedDays": ["Monday"],
+      "exercises": [
+        {
+          "id": "lb-back-squat",
+          "name": "Barbell Back Squat (or Trap-Bar Squat)",
+          "sets": 4,
+          "reps": "5",
+          "rest": "2.5 min",
+          "intensity": "Heavy (RPE 8)",
+          "cue": "Break hips and knees together, hit parallel, drive hard through mid-foot out of the hole."
+        },
+        {
+          "id": "lb-rdl",
+          "name": "Barbell Romanian Deadlift (RDL)",
+          "sets": 3,
+          "reps": "6-8",
+          "rest": "2 min",
+          "intensity": "Moderate-Heavy",
+          "cue": "Push hips straight back with soft knees; feel hamstring tension before snapping hips forward."
+        },
+        {
+          "id": "lb-split-squat",
+          "name": "Rear-Foot Elevated Split Squat",
+          "sets": 3,
+          "reps": "8 / leg",
+          "rest": "90 sec",
+          "intensity": "Moderate",
+          "cue": "Keep front shin vertical to build single-leg push-off power when changing direction."
+        },
+        {
+          "id": "lb-sled-push",
+          "name": "Heavy Prowler / Sled Drive (Low Pad)",
+          "sets": 4,
+          "reps": "20 yd",
+          "rest": "90 sec",
+          "intensity": "Max Drive",
+          "cue": "45° torso angle, flat back, piston knees forward — mimic bull-rushing an offensive tackle."
+        },
+        {
+          "id": "lb-hamstring-curl",
+          "name": "Nordic Curl or Slider Leg Curl",
+          "sets": 3,
+          "reps": "8-10",
+          "rest": "60 sec",
+          "intensity": "Accessory / Prehab",
+          "cue": "Control the eccentric lowering to bulletproof hamstrings during sprint bursts."
+        },
+        {
+          "id": "lb-pallof-press",
+          "name": "Band Pallof Press + Dead Bug",
+          "sets": 3,
+          "reps": "10 / side",
+          "rest": "45 sec",
+          "intensity": "Core Stability",
+          "cue": "Resist rotation under tension so blockers cannot turn your shoulders."
+        }
+      ]
+    },
+    {
+      "id": "explosive",
+      "title": "Explosive Days",
+      "subtitle": "Snap Get-Off, Triple Extension & Violent Hips",
+      "focus": "High-velocity power with full rest between sets. Quality and bar/jump speed beat fatigue on every single rep.",
+      "estimatedMinutes": 45,
+      "recommendedDays": ["Tuesday", "Friday"],
+      "exercises": [
+        {
+          "id": "ex-hang-clean",
+          "name": "Hang Power Clean (or Trap-Bar Jump Shrug)",
+          "sets": 5,
+          "reps": "3",
+          "rest": "2 min",
+          "intensity": "Fast & Crisp (70-80%)",
+          "cue": "Violent hip extension + shrug before catching high; reset each rep if bar speed drops."
+        },
+        {
+          "id": "ex-box-jump",
+          "name": "Box Jump (Step Down Each Rep)",
+          "sets": 4,
+          "reps": "4",
+          "rest": "90 sec",
+          "intensity": "Max Height",
+          "cue": "Snap arms and hips explosively; land softly in an athletic quarter-squat, step down safely."
+        },
+        {
+          "id": "ex-stance-broad-jump",
+          "name": "Broad Jump from 3-Point DL Stance",
+          "sets": 4,
+          "reps": "3",
+          "rest": "90 sec",
+          "intensity": "Max Distance",
+          "cue": "React on 'Set-Go' or clap; no false step — fire straight out of your hips."
+        },
+        {
+          "id": "ex-medball-chest-pass",
+          "name": "Med Ball Explosive Chest Pass (8-12 lb)",
+          "sets": 4,
+          "reps": "6",
+          "rest": "60 sec",
+          "intensity": "Max Velocity",
+          "cue": "Step forward into a punch and throw through the wall — trains rapid hand strike."
+        },
+        {
+          "id": "ex-medball-rotational",
+          "name": "Med Ball Rotational Slam / Scoop Toss",
+          "sets": 3,
+          "reps": "6 / side",
+          "rest": "60 sec",
+          "intensity": "Max Velocity",
+          "cue": "Load back hip, whip hips and torso together like ripping past a guard."
+        },
+        {
+          "id": "ex-banded-squat-jump",
+          "name": "Light Banded Squat Jumps (or DB Jump Squat)",
+          "sets": 3,
+          "reps": "5",
+          "rest": "90 sec",
+          "intensity": "Speed-Strength",
+          "cue": "Minimal ground contact time; leave the floor fast on every rep."
+        }
+      ]
+    },
+    {
+      "id": "running",
+      "title": "Running Days",
+      "subtitle": "10-Yard Get-Off, Lateral Pursuit & 4th-Quarter Gas Tank",
+      "focus": "Football is played in 4-to-7 second bursts with 25-40 seconds between snaps. Train first-step acceleration, change of direction, and repeat-play stamina.",
+      "estimatedMinutes": 40,
+      "recommendedDays": ["Wednesday", "Saturday"],
+      "exercises": [
+        {
+          "id": "rn-10yd-getoff",
+          "name": "10-Yard Get-Off Sprints (3-Pt / 4-Pt Stance)",
+          "sets": 6,
+          "reps": "10 yd",
+          "rest": "90 sec",
+          "intensity": "100% Max Effort",
+          "cue": "Stay low through yards 0-5, violent arm swing, zero wasted vertical pop on step one."
+        },
+        {
+          "id": "rn-20yd-pursuit",
+          "name": "20-Yard Angled Pursuit Sprints",
+          "sets": 4,
+          "reps": "20 yd",
+          "rest": "90 sec",
+          "intensity": "95-100% Effort",
+          "cue": "Take a sharp pursuit angle like chasing a bubble screen or outside zone stretch."
+        },
+        {
+          "id": "rn-pro-shuttle",
+          "name": "5-10-5 Pro Agility Shuttle",
+          "sets": 4,
+          "reps": "2 each way (4 total)",
+          "rest": "90 sec",
+          "intensity": "Crisp Plant & Drive",
+          "cue": "Drop hips before the line, plant outside foot hard, keep shoulders square out of the turn."
+        },
+        {
+          "id": "rn-l-drill",
+          "name": "3-Cone L-Drill (Pass Rush Bend)",
+          "sets": 3,
+          "reps": "1 each direction",
+          "rest": "90 sec",
+          "intensity": "High Agility",
+          "cue": "Dip inside shoulder around the far cone like turning the corner on an offensive tackle."
+        },
+        {
+          "id": "rn-half-gassers",
+          "name": "Half-Gasser Tempo Intervals (Sideline-Back)",
+          "sets": 6,
+          "reps": "1 rep (~106 yd)",
+          "rest": "60 sec",
+          "intensity": "80-85% Stride",
+          "cue": "Controlled athletic stride, crisp turns, practice deep nasal recovery breaths during rest."
+        }
+      ]
+    }
+  ]
+}
