@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "status": "ready-to-expand",
+  "note": "Placeholder defensive-line drill categories are staged here so you can review the layout now and drop in your specific position drills next.",
+  "categories": [
+    {
+      "id": "get-off-stance",
+      "title": "Stance & Snap Get-Off",
+      "description": "3-pt / 4-pt stance alignment, visual ball-key reaction, first-step explosion without false stepping.",
+      "plannedSlots": [
+        "Ball-key visual get-off starts",
+        "Low-pad chute / under-bar explosion"
+      ]
+    },
+    {
+      "id": "hands-shedding",
+      "title": "Hand Combat & Block Shedding",
+      "description": "Violent punch-and-lockout, thumbs-up strike timing, rip/push-pull shedding against reach & base blocks.",
+      "plannedSlots": [
+        "Med ball / bag violent punch & lockout",
+        "Rip, swim & shed progression on bags"
+      ]
+    },
+    {
+      "id": "pass-rush",
+      "title": "Pass Rush Moves & Bend",
+      "description": "Speed-to-power bull rush, swipe-rip counter, hip flip and hoop-cone edge bend.",
+      "plannedSlots": [
+        "3-cone hoop bend & corner flatten",
+        "Primary move + counter combo off set"
+      ]
+    },
+    {
+      "id": "run-fits-pursuit",
+      "title": "Gap Integrity & Pursuit",
+      "description": "Reading offensive tackle/guard blocks (down, reach, pull), squeezing A/B/C gaps, flat-line pursuit.",
+      "plannedSlots": [
+        "Read & react (down block vs reach block)",
+        "Screen / perimeter pursuit angle drill"
+      ]
+    }
+  ]
+}
