@@ -1,0 +1,301 @@
+{
+  "budgetSummaryNote": "Designed around affordable supermarket staples (bulk oats, eggs, rice, beans, peanut butter, milk, chicken leg quarters, ground beef, bananas, frozen veggies) — typically ~$45–$65/week per athlete depending on local grocery prices.",
+  "goalModes": [
+    {
+      "id": "clean-mass",
+      "label": "Add Good Weight (Clean Mass)",
+      "summary": "For lighter DEs/DTs trying to add 10–20 lbs of functional strength without getting sluggish.",
+      "macroFocus": "High protein (1g per lb target bodyweight) + generous clean carbs around lifts + calorie-dense budget fats."
+    },
+    {
+      "id": "lean-strength",
+      "label": "Trim Bad Weight & Keep Strength",
+      "summary": "For heavier DTs/NTs converting soft weight into speed, conditioning, and lean muscle.",
+      "macroFocus": "High protein (keep muscle) + controlled carbs timed before/after workouts + extra veggies for fullness."
+    },
+    {
+      "id": "maintain",
+      "label": "Maintain Weight & Peak Speed",
+      "summary": "For linemen already at ideal playing weight focusing on recovery and explosive output.",
+      "macroFocus": "Balanced protein, steady carbs on training days, and consistent hydration."
+    }
+  ],
+  "habits": [
+    {
+      "id": "habit-protein-every-meal",
+      "title": "Eat a Real Protein Source at Every Meal",
+      "target": "4–5 feedings/day (eggs, chicken, beef, tuna, milk, Greek yogurt, beans)",
+      "whyItMatters": "Muscles only rebuild from heavy squats and benches when amino acids are available throughout the day.",
+      "highSchoolTip": "Hard-boil 12 eggs on Sunday night so breakfast or after-school protein takes 30 seconds."
+    },
+    {
+      "id": "habit-hydration",
+      "title": "Hydrate Early (Half Bodyweight in Oz + Electrolytes)",
+      "target": "80–120+ oz water daily (carry a 32 oz bottle at school)",
+      "whyItMatters": "Even 2% dehydration drops sprint speed, vertical power, and mental sharpness in class and practice.",
+      "highSchoolTip": "Fill a reusable jug before 1st period; finish 1 jug by lunch and 1 more before dinner."
+    },
+    {
+      "id": "habit-never-lift-empty",
+      "title": "Fuel 45–60 Min Before Lifting or Running",
+      "target": "Fast-digesting carbs + light protein (banana + PB toast, or oats)",
+      "whyItMatters": "Skipping lunch and lifting on empty tanks bar speed on Day 2 Lower Body and Day 3 Explosive work.",
+      "highSchoolTip": "Keep a PB&J sandwich or two bananas + granola bar in your gym bag."
+    },
+    {
+      "id": "habit-post-lift-window",
+      "title": "Post-Workout Recovery Within 45 Minutes",
+      "target": "25–40g protein + 40–70g carbs (chocolate milk + banana, or tuna/rice)",
+      "whyItMatters": "Kicks off muscle repair immediately and prevents late-night junk food binges.",
+      "highSchoolTip": "16–20 oz chocolate milk is one of the cheapest, easiest post-lift recovery shakes in high school."
+    },
+    {
+      "id": "habit-skip-liquid-sugar",
+      "title": "Cut Soda, Sweet Tea & Energy Drinks",
+      "target": "Zero regular sodas or high-sugar energy cans",
+      "whyItMatters": "Liquid sugar adds slow belly fat, crashes energy in 4th period, and hurts recovery sleep.",
+      "highSchoolTip": "Swap for cold water with a squeeze of lemon/lime or milk at meals."
+    },
+    {
+      "id": "habit-veggies-daily",
+      "title": "2+ Fist-Sized Servings of Vegetables/Fruit Daily",
+      "target": "Frozen broccoli, carrots, spinach, bananas, apples, or oranges",
+      "whyItMatters": "Micronutrients, potassium, and fiber keep joints recovering and digestion running smoothly.",
+      "highSchoolTip": "Frozen steamer bags of broccoli or mixed veggies cost ~$1.25 and microwave in 4 minutes."
+    },
+    {
+      "id": "habit-pack-school-food",
+      "title": "Bring Backup Food to School",
+      "target": "2 packed snacks on top of school lunch",
+      "whyItMatters": "A single small school cafeteria tray is rarely enough fuel for a 210–270 lb teenager.",
+      "highSchoolTip": "Pack 2 PB&J sandwiches, a bag of trail mix/peanuts, and an apple in a gallon zip bag."
+    },
+    {
+      "id": "habit-sleep-recovery",
+      "title": "Protect 8–9 Hours of Sleep",
+      "target": "Phone away 30 min before bed; consistent wake time",
+      "whyItMatters": "Growth hormone and nervous system recovery happen during deep sleep — you get stronger sleeping, not lifting.",
+      "highSchoolTip": "Do homework right after practice so you aren't up past midnight."
+    }
+  ],
+  "mealSlots": [
+    {
+      "id": "meal-breakfast",
+      "timing": "6:45–7:30 AM (Before School)",
+      "name": "Power Breakfast: Eggs, Oats & Banana",
+      "purpose": "Kickstart protein synthesis and load steady carbs for morning classes.",
+      "estimatedCostPerServingUsd": 2.15,
+      "foods": [
+        {
+          "food": "Whole Large Eggs (scrambled or hard-boiled)",
+          "portionByGoal": {
+            "clean-mass": "4 whole eggs",
+            "lean-strength": "3 whole eggs + 2 egg whites (or 3 eggs)",
+            "maintain": "3–4 whole eggs"
+          },
+          "budgetSwap": "Buy 18-count or 36-count cartons (~$0.22–$0.30/egg)"
+        },
+        {
+          "food": "Rolled Oats cooked with Milk or Water + Cinnamon",
+          "portionByGoal": {
+            "clean-mass": "1 cup dry oats + 1 cup whole milk",
+            "lean-strength": "1/2 cup dry oats + water",
+            "maintain": "3/4 cup dry oats + 2% milk"
+          },
+          "budgetSwap": "Store-brand 42 oz tub of rolled oats lasts 2+ weeks"
+        },
+        {
+          "food": "Banana + Peanut Butter stirred into oats",
+          "portionByGoal": {
+            "clean-mass": "1 large banana + 2 tbsp peanut butter",
+            "lean-strength": "1 banana (skip extra PB if cutting)",
+            "maintain": "1 banana + 1 tbsp peanut butter"
+          },
+          "budgetSwap": "Store-brand creamy peanut butter (~$2.50/jar)"
+        }
+      ],
+      "prepTip": "Short on time? Make Overnight Oats in a jar the night before and grab hard-boiled eggs on the way out."
+    },
+    {
+      "id": "meal-school-lunch",
+      "timing": "11:30 AM–12:30 PM (School Lunch)",
+      "name": "Double-Protein School & Packed Lunch",
+      "purpose": "Bridge the long gap between morning classes and afternoon training.",
+      "estimatedCostPerServingUsd": 2.40,
+      "foods": [
+        {
+          "food": "Tuna Salad or Shredded Chicken Wrap / Sandwiches",
+          "portionByGoal": {
+            "clean-mass": "2 cans tuna (or 6 oz chicken) on 4 slices whole wheat bread + light mayo",
+            "lean-strength": "2 cans tuna (or 6 oz chicken) in 2 high-fiber tortillas + mustard/hot sauce",
+            "maintain": "1.5–2 cans tuna (or 5 oz chicken) on 2–3 slices bread"
+          },
+          "budgetSwap": "Canned chunk light tuna (~$1.00/can) or leftover roasted chicken thighs"
+        },
+        {
+          "food": "Apple or Orange + Carrot Sticks",
+          "portionByGoal": {
+            "clean-mass": "1 apple + 1 cup carrots",
+            "lean-strength": "1 apple + 2 cups carrots/celery",
+            "maintain": "1 apple + 1 cup carrots"
+          },
+          "budgetSwap": "Buy 3 lb bag of apples or whole carrots instead of pre-cut snack packs"
+        },
+        {
+          "food": "Milk or Greek Yogurt Cup",
+          "portionByGoal": {
+            "clean-mass": "16 oz milk or 1 cup yogurt",
+            "lean-strength": "1 cup plain/light Greek yogurt",
+            "maintain": "8–12 oz milk or 1 yogurt cup"
+          },
+          "budgetSwap": "School cafeteria milk carton + large 32 oz tub of yogurt portioned at home"
+        }
+      ],
+      "prepTip": "If you buy school lunch, always grab the main meat entree + extra milk + fruit, and add a packed PB&J from your backpack."
+    },
+    {
+      "id": "meal-pre-lift",
+      "timing": "3:00–3:30 PM (45 Min Before Workout)",
+      "name": "Pre-Workout Locker-Room Fuel",
+      "purpose": "Top off glycogen for explosive squats, cleans, and 10-yard sprints.",
+      "estimatedCostPerServingUsd": 0.95,
+      "foods": [
+        {
+          "food": "Peanut Butter & Jelly on Whole Wheat Bread",
+          "portionByGoal": {
+            "clean-mass": "1 full PB&J sandwich (2 tbsp PB + 1 tbsp jelly)",
+            "lean-strength": "1/2 sandwich or 1 banana only",
+            "maintain": "1 light PB&J or 2 rice cakes + PB"
+          },
+          "budgetSwap": "Store-brand 100% whole wheat loaf + bulk PB"
+        },
+        {
+          "food": "Banana + 16 oz Water with Pinch of Salt",
+          "portionByGoal": {
+            "clean-mass": "1 banana + 16 oz water",
+            "lean-strength": "1 banana + 20 oz water",
+            "maintain": "1 banana + 16 oz water"
+          },
+          "budgetSwap": "Bananas average ~$0.25 each — cheapest sports carb on earth"
+        }
+      ],
+      "prepTip": "Never eat heavy greasy fast food right before training — keep it simple carbs + easy digestion."
+    },
+    {
+      "id": "meal-post-lift",
+      "timing": "Immediately After Training (Within 45 Min)",
+      "name": "Post-Lift Recovery Shake / Snack",
+      "purpose": "Halt muscle breakdown and replenish energy fast.",
+      "estimatedCostPerServingUsd": 1.35,
+      "foods": [
+        {
+          "food": "Cold Chocolate Milk (or Milk + Scoop Whey if owned)",
+          "portionByGoal": {
+            "clean-mass": "20 oz chocolate milk",
+            "lean-strength": "12–16 oz low-fat milk + 1 scoop whey (or 1 cup Greek yogurt)",
+            "maintain": "16 oz chocolate milk"
+          },
+          "budgetSwap": "Half-gallon of store-brand chocolate milk costs ~$2.50 and gives 3–4 servings"
+        },
+        {
+          "food": "Handful of Pretzels or Banana",
+          "portionByGoal": {
+            "clean-mass": "1 banana + 1 cup pretzels",
+            "lean-strength": "1 small banana (skip pretzels)",
+            "maintain": "1 banana"
+          },
+          "budgetSwap": "Store-brand pretzel bag (~$2.00 for a full week)"
+        }
+      ],
+      "prepTip": "Put chocolate milk in an insulated bottle with ice so it's cold right after your last sprint."
+    },
+    {
+      "id": "meal-dinner",
+      "timing": "6:30–7:30 PM (Home Dinner)",
+      "name": "Trench Builder Dinner: Meat, Rice/Potatoes & Greens",
+      "purpose": "Main muscle-building meal of the day using budget family staples.",
+      "estimatedCostPerServingUsd": 3.10,
+      "foods": [
+        {
+          "food": "Baked Chicken Thighs/Leg Quarters OR 85/15 Ground Beef",
+          "portionByGoal": {
+            "clean-mass": "8 oz cooked chicken thighs or ground beef",
+            "lean-strength": "6–7 oz trimmed chicken breast/thighs or drained 90/10 beef",
+            "maintain": "6–7 oz chicken thighs or ground beef"
+          },
+          "budgetSwap": "Chicken leg quarters ($0.99–$1.49/lb) and family-pack ground beef are half the cost of steaks"
+        },
+        {
+          "food": "White/Brown Rice + Black/Pinto Beans OR Baked Potatoes",
+          "portionByGoal": {
+            "clean-mass": "2 cups cooked rice + 1/2 cup beans (or 2 medium potatoes)",
+            "lean-strength": "1 cup rice + 1/2 cup beans (or 1 medium potato)",
+            "maintain": "1.5 cups rice + 1/2 cup beans"
+          },
+          "budgetSwap": "5–10 lb bag of rice + dry beans = pennies per serving and extra fiber/protein"
+        },
+        {
+          "food": "Steamed Frozen Broccoli or Mixed Vegetables",
+          "portionByGoal": {
+            "clean-mass": "1.5 cups veggies + 1 tsp olive oil/butter",
+            "lean-strength": "2+ cups veggies (fill half your plate)",
+            "maintain": "1.5–2 cups veggies"
+          },
+          "budgetSwap": "Frozen broccoli florets (~$1.25/bag) have identical nutrients to fresh with zero spoilage"
+        }
+      ],
+      "prepTip": "Cook 4 lbs of chicken or ground beef + a big pot of rice on Sunday and Wednesday for grab-and-go bowls."
+    },
+    {
+      "id": "meal-before-bed",
+      "timing": "9:00–9:45 PM (Before Sleep)",
+      "name": "Overnight Muscle Repair Snack",
+      "purpose": "Slow-digesting casein protein feeds recovering muscles overnight.",
+      "estimatedCostPerServingUsd": 0.90,
+      "foods": [
+        {
+          "food": "Cottage Cheese OR Plain Greek Yogurt + Frozen Berries",
+          "portionByGoal": {
+            "clean-mass": "1 cup cottage cheese or Greek yogurt + 1 tbsp PB + berries",
+            "lean-strength": "3/4 cup cottage cheese or Greek yogurt + berries",
+            "maintain": "1 cup cottage cheese or Greek yogurt"
+          },
+          "budgetSwap": "32 oz tub of store-brand cottage cheese or Greek yogurt (~$3.50 for 4 nights)"
+        }
+      ],
+      "prepTip": "Keep this light and cool so you sleep deeply without stomach discomfort."
+    }
+  ],
+  "groceryList": [
+    {
+      "category": "Proteins (Budget Staples)",
+      "items": [
+        { "name": "Large Eggs (36-count or 2 × 18-count)", "weeklyQuantity": "30–36 eggs", "budgetNote": "~$0.25/egg — best cheap complete protein" },
+        { "name": "Chicken Leg Quarters or Bone-In Thighs", "weeklyQuantity": "4–5 lbs", "budgetNote": "Often $1.00–$1.79/lb in value packs" },
+        { "name": "Ground Beef (85/15) or Ground Turkey", "weeklyQuantity": "2–3 lbs", "budgetNote": "Buy 3 lb chub/family pack & freeze half" },
+        { "name": "Canned Chunk Light Tuna", "weeklyQuantity": "6–8 cans", "budgetNote": "~$1.00/can, zero refrigeration needed" },
+        { "name": "Whole or 2% Milk + Chocolate Milk", "weeklyQuantity": "1.5–2 gallons", "budgetNote": "Cheap protein, calcium & post-lift carbs" },
+        { "name": "Plain Greek Yogurt or Cottage Cheese (32 oz tub)", "weeklyQuantity": "1–2 tubs", "budgetNote": "Tubs cost half as much per oz as single cups" }
+      ]
+    },
+    {
+      "category": "Carbs & Clean Fuel",
+      "items": [
+        { "name": "Rolled Oats (42 oz canister)", "weeklyQuantity": "1 tub (lasts 2 wks)", "budgetNote": "Store-brand old fashioned oats" },
+        { "name": "White or Brown Rice (5 lb bag)", "weeklyQuantity": "1 bag (lasts 3+ wks)", "budgetNote": "Cooks in bulk for quick dinner bowls" },
+        { "name": "Russet or Sweet Potatoes (5 lb bag)", "weeklyQuantity": "1 bag", "budgetNote": "Great potassium for preventing cramps" },
+        { "name": "Dry or Canned Black/Pinto Beans", "weeklyQuantity": "2–3 cans or 1 lb dry", "budgetNote": "Adds protein + fiber for under $1/serving" },
+        { "name": "100% Whole Wheat Bread & Flour Tortillas", "weeklyQuantity": "1 loaf + 1 pack", "budgetNote": "Easy school wraps & PB&J fuel" }
+      ]
+    },
+    {
+      "category": "Produce & Healthy Fats",
+      "items": [
+        { "name": "Bananas", "weeklyQuantity": "2 bunches (10–14 bananas)", "budgetNote": "Pre-lift and post-lift staple" },
+        { "name": "Apples or Oranges (3 lb bag)", "weeklyQuantity": "1 bag", "budgetNote": "Backpack-durable school fruit" },
+        { "name": "Frozen Broccoli / Mixed Vegetables", "weeklyQuantity": "4–5 bags (12 oz)", "budgetNote": "No waste, microwaves in 4 minutes" },
+        { "name": "Peanut Butter (16–40 oz jar)", "weeklyQuantity": "1 jar", "budgetNote": "Look for just peanuts + salt on label" }
+      ]
+    }
+  ]
+}

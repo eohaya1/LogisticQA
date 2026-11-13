@@ -1,0 +1,448 @@
+{
+  "programName": "12-Week High School D-Line Offseason Blueprint",
+  "targetAthlete": "High School Defensive Linemen (DE / DT / NT)",
+  "seasonType": "Offseason",
+  "totalWeeks": 12,
+  "weeklyScheduleNote": "Recommended 4-day offseason split: Mon (Upper Body), Tue (Lower Body), Wed (Recovery/Mobility), Thu (Explosive Day), Fri (Running & Agility Day), Sat/Sun (Rest & Fuel).",
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Phase 1: Foundation & Work Capacity",
+      "weeksLabel": "Weeks 1–4",
+      "weekNumbers": [1, 2, 3, 4],
+      "focus": "Clean technique, joint tendon durability, muscle hypertrophy, and aerobic base for trench endurance.",
+      "rpeTarget": "RPE 7–7.5 (Leave 2–3 reps in the tank)",
+      "coachingNote": "Own every rep. Control the eccentric (lowering) for 2 seconds before driving explosively."
+    },
+    {
+      "id": "phase-2",
+      "name": "Phase 2: Max Strength & Force Production",
+      "weeksLabel": "Weeks 5–8",
+      "weekNumbers": [5, 6, 7, 8],
+      "focus": "Heavy compound force, anchor leg strength against double teams, and heavy upper-body lockout.",
+      "rpeTarget": "RPE 8–8.5 (Leave 1–2 reps in the tank)",
+      "coachingNote": "Add 5–10 lbs per week only when bar speed and posture stay locked in."
+    },
+    {
+      "id": "phase-3",
+      "name": "Phase 3: Explosive Power & Speed Peak",
+      "weeksLabel": "Weeks 9–12",
+      "weekNumbers": [9, 10, 11, 12],
+      "focus": "Convert offseason strength into violent first-step get-off, hand speed, and combine-ready sprint mechanics.",
+      "rpeTarget": "RPE 8–9 on primary lifts; 100% intent on sprints & jumps",
+      "coachingNote": "Move moderate-heavy weights as fast as physically possible. Never grind ugly reps in peak phase."
+    }
+  ],
+  "workoutDays": [
+    {
+      "id": "upper-body",
+      "dayNumber": 1,
+      "title": "Day 1: Upper Body — Lockout & Punch Strength",
+      "shortLabel": "Upper Body",
+      "subtitle": "Pressing power, violent shed-and-pull back thickness, shoulder armor",
+      "durationMinutes": 60,
+      "primaryGoal": "Build heavy bench/press punch strength and thick upper-back pulling power to shock and shed offensive linemen.",
+      "warmUp": [
+        "3 min jump rope or brisk incline walk",
+        "Band pull-aparts: 2 × 15",
+        "Scapular push-ups: 2 × 12",
+        "World's greatest stretch + thoracic rotations: 5 reps each side"
+      ],
+      "exercises": [
+        {
+          "id": "bench-press",
+          "name": "Barbell Bench Press",
+          "equipment": "Barbell + Flat Bench",
+          "dLineTransfer": "Two-hand punch extension and keeping blockers off your chest",
+          "coachingCue": "Pin shoulder blades into the bench, feet glued to the floor, drive elbows at 45 degrees.",
+          "alternative": "Dumbbell Flat Bench Press",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "8–10", "rest": "2 min", "intensityCue": "Controlled 2s lower, crisp drive (RPE 7)" },
+            "phase-2": { "sets": "4", "reps": "5", "rest": "2.5–3 min", "intensityCue": "Heavy working weight, add 5 lbs/wk (RPE 8)" },
+            "phase-3": { "sets": "5", "reps": "3", "rest": "3 min", "intensityCue": "Max bar speed on every press (RPE 8.5)" }
+          }
+        },
+        {
+          "id": "barbell-row",
+          "name": "Barbell Bent-Over Row",
+          "equipment": "Barbell",
+          "dLineTransfer": "Ripping offensive linemen off your frame and controlling gaps",
+          "coachingCue": "Hinge at hips with a flat back, pull bar toward lower ribs, pause 1 second at chest.",
+          "alternative": "Chest-Supported DB Row",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "10", "rest": "90 sec", "intensityCue": "Full stretch, no lower-back jerking" },
+            "phase-2": { "sets": "4", "reps": "6–8", "rest": "2 min", "intensityCue": "Heavy strict pulls" },
+            "phase-3": { "sets": "4", "reps": "5", "rest": "2 min", "intensityCue": "Explosive pull, controlled lower" }
+          }
+        },
+        {
+          "id": "incline-db-press",
+          "name": "Incline Dumbbell Press",
+          "equipment": "Dumbbells + Incline Bench",
+          "dLineTransfer": "Upward strike angle under an offensive tackle's pads",
+          "coachingCue": "Set bench at 30 degrees; press up and slightly inward without clanking dumbbells.",
+          "alternative": "Incline Barbell Press",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "10–12", "rest": "90 sec", "intensityCue": "Full range of motion" },
+            "phase-2": { "sets": "3", "reps": "8", "rest": "2 min", "intensityCue": "Challenging last 2 reps" },
+            "phase-3": { "sets": "3", "reps": "6", "rest": "2 min", "intensityCue": "Explosive upward drive" }
+          }
+        },
+        {
+          "id": "chin-ups",
+          "name": "Weighted or Band-Assisted Chin-Ups",
+          "equipment": "Pull-Up Bar",
+          "dLineTransfer": "Lat width, grip endurance, and arm-over pass-rush control",
+          "coachingCue": "Start from dead hang, drive elbows down to ribs until chin clears bar.",
+          "alternative": "Heavy Lat Pulldown",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "6–10", "rest": "90 sec", "intensityCue": "Bodyweight or light band assist" },
+            "phase-2": { "sets": "4", "reps": "6", "rest": "2 min", "intensityCue": "Add belt weight or slow 3s negative" },
+            "phase-3": { "sets": "4", "reps": "5", "rest": "2 min", "intensityCue": "Fast pull up, controlled descent" }
+          }
+        },
+        {
+          "id": "landmine-punch",
+          "name": "Split-Stance Landmine Single-Arm Press",
+          "equipment": "Barbell in Landmine + Plate",
+          "dLineTransfer": "Violent single-arm club/punch from a staggered D-line stance",
+          "coachingCue": "Lock ribcage down, punch through hip and shoulder as one unit.",
+          "alternative": "Standing Single-Arm DB Press",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "10 / side", "rest": "60 sec", "intensityCue": "Smooth rhythm, stay balanced" },
+            "phase-2": { "sets": "3", "reps": "8 / side", "rest": "75 sec", "intensityCue": "Explosive punch out of the pocket" },
+            "phase-3": { "sets": "4", "reps": "5 / side", "rest": "90 sec", "intensityCue": "Max punch speed each rep" }
+          }
+        },
+        {
+          "id": "face-pull-farmers",
+          "name": "Face Pulls + Heavy Farmer's Walk (Superset)",
+          "equipment": "Cable/Band + Heavy Dumbbells or Trap Bar",
+          "dLineTransfer": "Shoulder injury prevention + vice-grip jersey/wrist strength",
+          "coachingCue": "Pull rope to forehead with thumbs back; walk tall with packed shoulders.",
+          "alternative": "Band Face Pulls + Plate Pinches",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "15 pulls + 30 yd walk", "rest": "90 sec", "intensityCue": "Moderate weight, crisp posture" },
+            "phase-2": { "sets": "3", "reps": "15 pulls + 40 yd walk", "rest": "90 sec", "intensityCue": "Heavy grip challenge" },
+            "phase-3": { "sets": "3", "reps": "12 pulls + 25 yd fast walk", "rest": "90 sec", "intensityCue": "Heavy & fast stride" }
+          }
+        }
+      ],
+      "coolDown": [
+        "Doorway pec stretch: 2 × 30 sec/side",
+        "Lat hang or child's pose reach: 60 sec",
+        "Hydrate + post-lift protein/carb recovery within 45 min"
+      ],
+      "drillSlot": {
+        "status": "ready-for-coach-drills",
+        "title": "D-Line Upper-Body / Hand-Combat Drills Slot",
+        "description": "Reserved for coach-added hand-fighting, punch-and-rip, and pad-shed drills.",
+        "suggestedTiming": "Run 10–15 min before lifting or on turf right after warm-up."
+      }
+    },
+    {
+      "id": "lower-body",
+      "dayNumber": 2,
+      "title": "Day 2: Lower Body — Hip Drive & Double-Team Anchor",
+      "shortLabel": "Lower Body",
+      "subtitle": "Squat/hinge force, posterior chain armor, single-leg stability",
+      "durationMinutes": 65,
+      "primaryGoal": "Build unmovable lower-body leverage, low pad-level hip power, and knee/hamstring durability.",
+      "warmUp": [
+        "5 min bike or brisk sled drag backward",
+        "Glute bridges: 2 × 15",
+        "Bodyweight Cossack squats: 2 × 6 / side",
+        "Ankle dorsiflexion knee-to-wall rocks: 2 × 10 / side"
+      ],
+      "exercises": [
+        {
+          "id": "back-squat",
+          "name": "Barbell Back Squat (or Safety Bar Squat)",
+          "equipment": "Barbell + Squat Rack",
+          "dLineTransfer": "Pad-level leverage, anchoring against double teams, vertical drive",
+          "coachingCue": "Brace 360-degree belly breath, sit hips between heels to parallel, drive floor away.",
+          "alternative": "Goblet Squat or Box Squat",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "8", "rest": "2.5 min", "intensityCue": "Own depth & knees tracking toes (RPE 7)" },
+            "phase-2": { "sets": "4", "reps": "5", "rest": "3 min", "intensityCue": "Heavy anchor strength (RPE 8–8.5)" },
+            "phase-3": { "sets": "4", "reps": "3", "rest": "3 min", "intensityCue": "Explosive drive out of the hole (RPE 8)" }
+          }
+        },
+        {
+          "id": "trap-bar-deadlift",
+          "name": "Trap Bar Deadlift (Low or High Handles)",
+          "equipment": "Trap / Hex Bar",
+          "dLineTransfer": "Raw starting-stance hip extension and total-body ground force",
+          "coachingCue": "Push feet through the turf like a leg press, keep chest proud, lock hips tall.",
+          "alternative": "Conventional Barbell Deadlift",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "6", "rest": "2.5 min", "intensityCue": "Reset every rep on the floor (RPE 7)" },
+            "phase-2": { "sets": "4", "reps": "4", "rest": "3 min", "intensityCue": "Heavy crisp pulls (RPE 8.5)" },
+            "phase-3": { "sets": "4", "reps": "2–3", "rest": "3 min", "intensityCue": "Violent speed off the floor" }
+          }
+        },
+        {
+          "id": "rdl",
+          "name": "Barbell or Dumbbell Romanian Deadlift (RDL)",
+          "equipment": "Barbell or Heavy Dumbbells",
+          "dLineTransfer": "Hamstring/glute resilience during sprinting and low-pad tackles",
+          "coachingCue": "Soft knees, push hips straight back until hamstrings load, snap hips forward.",
+          "alternative": "Hamstring Slider Curls",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "10", "rest": "90 sec", "intensityCue": "3-second lower, deep hamstring stretch" },
+            "phase-2": { "sets": "3", "reps": "8", "rest": "2 min", "intensityCue": "Heavier controlled hinge" },
+            "phase-3": { "sets": "3", "reps": "6", "rest": "2 min", "intensityCue": "Crisp hinge, protect lower back" }
+          }
+        },
+        {
+          "id": "bulgarian-split-squat",
+          "name": "Bulgarian Split Squat",
+          "equipment": "Dumbbells + Bench",
+          "dLineTransfer": "Single-leg drive when redirecting around guards or chasing outside zone",
+          "coachingCue": "Keep front shin mostly vertical, drive through whole front foot.",
+          "alternative": "Heavy Reverse Lunges",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "8 / leg", "rest": "90 sec", "intensityCue": "Bodyweight or light DBs for balance" },
+            "phase-2": { "sets": "3", "reps": "6 / leg", "rest": "90 sec", "intensityCue": "Challenge single-leg strength" },
+            "phase-3": { "sets": "3", "reps": "5 / leg", "rest": "90 sec", "intensityCue": "Fast drive up, controlled descent" }
+          }
+        },
+        {
+          "id": "calf-raise",
+          "name": "Standing Single-Leg or Barbell Calf Raise",
+          "equipment": "Step/Plate + Dumbbell",
+          "dLineTransfer": "Achilles stiffness and ankle pop on your first step out of a 3-point stance",
+          "coachingCue": "Pause 2 seconds at bottom stretch, drive high onto big toe.",
+          "alternative": "Seated Calf Raise",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "15 / side", "rest": "60 sec", "intensityCue": "Full stretch and squeeze" },
+            "phase-2": { "sets": "3", "reps": "12 / side", "rest": "60 sec", "intensityCue": "Add dumbbell weight" },
+            "phase-3": { "sets": "3", "reps": "10 / side", "rest": "60 sec", "intensityCue": "Fast upward pop, slow lower" }
+          }
+        },
+        {
+          "id": "core-brace",
+          "name": "Pallof Press + Hanging Knee/Leg Raises",
+          "equipment": "Resistance Band/Cable + Pull-Up Bar",
+          "dLineTransfer": "Anti-rotation core stability so blockers can't torque your torso",
+          "coachingCue": "Exhale hard, keep ribs stacked over pelvis, zero swinging.",
+          "alternative": "Dead Bugs + Plank Shoulder Taps",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "10 / side + 10 raises", "rest": "60 sec", "intensityCue": "Slow control" },
+            "phase-2": { "sets": "3", "reps": "12 / side + 12 raises", "rest": "60 sec", "intensityCue": "Increase band tension" },
+            "phase-3": { "sets": "3", "reps": "10 / side + 12 crisp raises", "rest": "60 sec", "intensityCue": "Braced & sharp" }
+          }
+        }
+      ],
+      "coolDown": [
+        "90/90 hip flexor & glute stretch: 45 sec/side",
+        "Wall hamstring stretch: 60 sec/side",
+        "Foam roll quads & calves: 2 min"
+      ],
+      "drillSlot": {
+        "status": "ready-for-coach-drills",
+        "title": "D-Line Stance, Get-Off & Pad-Level Drills Slot",
+        "description": "Reserved for coach-added 3-point/4-point stance explosion and chute/leverage drills.",
+        "suggestedTiming": "Run on turf right after dynamic warm-up while legs are fresh."
+      }
+    },
+    {
+      "id": "explosive",
+      "dayNumber": 3,
+      "title": "Day 3: Explosive Day — Triple Extension & Violent Power",
+      "shortLabel": "Explosive Day",
+      "subtitle": "Olympic pulls, plyometrics, med-ball shock, heavy sled bursts",
+      "durationMinutes": 55,
+      "primaryGoal": "Train fast-twitch rate of force development so strength translates to sudden knock-back on contact.",
+      "warmUp": [
+        "3 min dynamic skips (A-skip, B-skip, lateral carioca)",
+        "Pogo ankle hops: 2 × 15",
+        "Snap-downs (tall to athletic base): 2 × 6",
+        "Empty barbell clean pulls + front squat prep: 2 × 5"
+      ],
+      "exercises": [
+        {
+          "id": "power-clean",
+          "name": "Hang Power Clean (from mid-thigh)",
+          "equipment": "Barbell + Bumper Plates",
+          "dLineTransfer": "Violent hip-to-hand triple extension on snap count",
+          "coachingCue": "Shins vertical, sweep bar close, jump & punch elbows fast to catch in quarter squat.",
+          "alternative": "Trap Bar Jump Shrug or Heavy KB Swing",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "3", "rest": "2 min", "intensityCue": "Light-moderate weight, master rack position" },
+            "phase-2": { "sets": "5", "reps": "3", "rest": "2.5 min", "intensityCue": " Crisp 75–82% load, every rep explosive" },
+            "phase-3": { "sets": "5", "reps": "2", "rest": "2.5 min", "intensityCue": "Peak bar velocity, zero sloppy catches" }
+          }
+        },
+        {
+          "id": "box-jump",
+          "name": "Seated-to-Standing Box Jump",
+          "equipment": "Plyo Box + Bench",
+          "dLineTransfer": "Dead-stop concentric explosion out of a 3-point stance",
+          "coachingCue": "Sit with shins vertical, pause 1 sec (no rock-back), explode up and land soft like a cat.",
+          "alternative": "Vertical Jump & Reach",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "4", "rest": "90 sec", "intensityCue": "Moderate box height, quiet landings" },
+            "phase-2": { "sets": "4", "reps": "3", "rest": "2 min", "intensityCue": "Max height intent, step down every rep" },
+            "phase-3": { "sets": "5", "reps": "3", "rest": "2 min", "intensityCue": "Max height + minimal ground contact" }
+          }
+        },
+        {
+          "id": "broad-jump",
+          "name": "Broad Jump (Stick the Landing)",
+          "equipment": "Turf / Tape Measure",
+          "dLineTransfer": "Horizontal displacement off the line of scrimmage",
+          "coachingCue": "Load arms back, drive hips forward at 45 degrees, stick athletic landing for 2 sec.",
+          "alternative": "Single-Leg Bound to Stick",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "3", "rest": "90 sec", "intensityCue": "Focus on clean landing mechanics" },
+            "phase-2": { "sets": "4", "reps": "3", "rest": "2 min", "intensityCue": "Measure and beat distance" },
+            "phase-3": { "sets": "4", "reps": "2", "rest": "2 min", "intensityCue": "100% max horizontal effort" }
+          }
+        },
+        {
+          "id": "med-ball-chest-pass",
+          "name": "Med Ball Stance-to-Wall Explosive Chest Pass",
+          "equipment": "10–14 lb Medicine Ball + Concrete Wall",
+          "dLineTransfer": "Instant hand strike power on offensive tackle's breastplate",
+          "coachingCue": "Start in staggered DL stance, step front foot 6 inches and fire ball straight through the wall.",
+          "alternative": "Explosive Plyo Push-Ups",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "6", "rest": "75 sec", "intensityCue": "10 lb ball, crisp violent punch" },
+            "phase-2": { "sets": "4", "reps": "5", "rest": "90 sec", "intensityCue": "12–14 lb ball, max velocity" },
+            "phase-3": { "sets": "4", "reps": "4", "rest": "90 sec", "intensityCue": "Fastest hand speed possible" }
+          }
+        },
+        {
+          "id": "heavy-sled-push",
+          "name": "Heavy Low-Pad Sled Drive (10–15 Yards)",
+          "equipment": "Prowler / Push Sled + Turf",
+          "dLineTransfer": "Driving an offensive guard backward on bull-rush or goal-line stand",
+          "coachingCue": "45-degree torso angle, arms locked/semi-locked, piston knees hard into the turf.",
+          "alternative": "Partner Resistance Harness March",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "15 yds", "rest": "90 sec", "intensityCue": "Moderate sled load, smooth churn" },
+            "phase-2": { "sets": "5", "reps": "10 yds", "rest": "2 min", "intensityCue": "Heavy grind, keep back flat" },
+            "phase-3": { "sets": "6", "reps": "10 yds", "rest": "2 min", "intensityCue": "Medium-heavy load, max speed drive" }
+          }
+        },
+        {
+          "id": "med-ball-rotational-slam",
+          "name": "Rotational Med Ball Slam",
+          "equipment": "10–12 lb Slam Ball",
+          "dLineTransfer": "Hip-to-shoulder torque for swim/rip/spin rush moves",
+          "coachingCue": "Pivot back foot, whip hips first then slam ball violently beside front foot.",
+          "alternative": "Cable Woodchoppers",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "6 / side", "rest": "60 sec", "intensityCue": "Learn hip-first sequencing" },
+            "phase-2": { "sets": "3", "reps": "5 / side", "rest": "75 sec", "intensityCue": "Max rotational power" },
+            "phase-3": { "sets": "4", "reps": "4 / side", "rest": "75 sec", "intensityCue": "Snap fast, reset between reps" }
+          }
+        }
+      ],
+      "coolDown": [
+        "Deep diaphragmatic nasal breathing (lie feet elevated): 2 min",
+        "Quad/hip flexor stretch + shoulder circles: 2 min"
+      ],
+      "drillSlot": {
+        "status": "ready-for-coach-drills",
+        "title": "D-Line Pass-Rush & Ball-Get-Off Drills Slot",
+        "description": "Reserved for coach-added ball-reaction get-offs, hoop/corner drills, and rush moves.",
+        "suggestedTiming": "Execute immediately after dynamic warm-up before heavy sleds."
+      }
+    },
+    {
+      "id": "running",
+      "dayNumber": 4,
+      "title": "Day 4: Running Day — Get-Off Speed, Agility & Trench Conditioning",
+      "shortLabel": "Running Day",
+      "subtitle": "Short-area acceleration, change of direction, and high-output repeat effort",
+      "durationMinutes": 50,
+      "primaryGoal": "Shave tenths off your 10-yd split and 5-10-5 shuttle while building repeat-sprint conditioning with real football rest intervals.",
+      "warmUp": [
+        "400m easy jog or 3 min jump rope",
+        "Dynamic leg swings (front/back + side-to-side): 10 / leg",
+        "High knees, butt kicks, A-march, lateral shuffles: 20 yds each",
+        "2 × 15-yd build-up strides at 75% and 85%"
+      ],
+      "exercises": [
+        {
+          "id": "ten-yard-starts",
+          "name": "10-Yard Stance Get-Off Sprints",
+          "equipment": "Cones + Stopwatch / Timing Gate",
+          "dLineTransfer": "Winning the first 3 steps off the snap against offensive tackles",
+          "coachingCue": "No false step. Push off front foot, stay low through step 4, rip arms cheek-to-hip.",
+          "alternative": "Wall-Lean Falling Starts (10 yds)",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "10 yds", "rest": "90 sec", "intensityCue": "90–95% effort, clean first-step mechanics" },
+            "phase-2": { "sets": "5", "reps": "10 yds", "rest": "2 min", "intensityCue": "100% effort, time reps if possible" },
+            "phase-3": { "sets": "6", "reps": "10 yds", "rest": "2 min", "intensityCue": "Race reaction cue (whistle/ball move)" }
+          }
+        },
+        {
+          "id": "forty-yard-build",
+          "name": "20-Yard & 40-Yard Sprint Mechanics",
+          "equipment": "Measured Turf/Track + Cones",
+          "dLineTransfer": "Closing speed on screen plays, QB scrambles, and combine testing",
+          "coachingCue": "Stay patient rising tall between 10–20 yds; relax jaw and shoulders at top speed.",
+          "alternative": "20-Yard Flying Sprints",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "3", "reps": "20 yds", "rest": "2 min", "intensityCue": "Focus on arm drive & posture" },
+            "phase-2": { "sets": "3", "reps": "30 yds", "rest": "2.5 min", "intensityCue": "95–100% smooth acceleration" },
+            "phase-3": { "sets": "2", "reps": "40 yds (timed)", "rest": "4 min", "intensityCue": "Full recovery, PR attempt every 2 weeks" }
+          }
+        },
+        {
+          "id": "pro-agility",
+          "name": "Pro Agility Shuttle (5-10-5)",
+          "equipment": "3 Cones spaced 5 yds apart",
+          "dLineTransfer": "Plant-and-redirect agility when chasing counter, reverse, or cutback runs",
+          "coachingCue": "Drop hips on the line touch, push outside foot into turf, drive head & chest back across.",
+          "alternative": "Short 5-Yd Lateral Shuffle-to-Sprint",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "4", "reps": "2 L / 2 R", "rest": "90 sec", "intensityCue": "Clean line touches, stay low" },
+            "phase-2": { "sets": "4", "reps": "2 L / 2 R", "rest": "2 min", "intensityCue": "Aggressive deceleration & re-acceleration" },
+            "phase-3": { "sets": "4", "reps": "2 L / 2 R (timed)", "rest": "2.5 min", "intensityCue": "Combine test pace" }
+          }
+        },
+        {
+          "id": "l-drill",
+          "name": "3-Cone L-Drill (Edge Bend & Hip Turn)",
+          "equipment": "3 Cones in 5-yd L shape",
+          "dLineTransfer": "Bending the corner past an offensive tackle to sack the quarterback",
+          "coachingCue": "Dip inside shoulder tight around the far cone, keep feet churning under hips.",
+          "alternative": "Hoop Bend-the-Corner Sprint",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "2", "reps": "1 L / 1 R", "rest": "2 min", "intensityCue": "Learn tight cone footwork" },
+            "phase-2": { "sets": "4", "reps": "2 L / 2 R", "rest": "2 min", "intensityCue": "Drop shoulder low on corner turn" },
+            "phase-3": { "sets": "4", "reps": "2 L / 2 R (timed)", "rest": "2.5 min", "intensityCue": "Fastest corner bend" }
+          }
+        },
+        {
+          "id": "lineman-conditioning",
+          "name": "D-Line Tempo Half-Gassers / Turf Shuttles",
+          "equipment": "Football Field Width (53.3 yds)",
+          "dLineTransfer": "4th-quarter pass-rush gas tank without turning fast-twitch legs into slow joggers",
+          "coachingCue": "Run sharp 85% strides (not jogging), hit each line clean, breathe deeply during rest.",
+          "alternative": "30-Yd Down-and-Back Shuttles",
+          "prescriptionsByPhase": {
+            "phase-1": { "sets": "6", "reps": "1 field width (53 yds)", "rest": "35 sec", "intensityCue": "Target 8–10 sec/rep" },
+            "phase-2": { "sets": "6", "reps": "Down & Back (106 yds)", "rest": "50 sec", "intensityCue": "Target 17–21 sec/rep" },
+            "phase-3": { "sets": "8", "reps": "40-yd burst + 25s walk back", "rest": "35 sec", "intensityCue": "Simulate 8-play defensive drive" }
+          }
+        }
+      ],
+      "coolDown": [
+        "200m slow walk until heart rate settles",
+        "Calf, hamstring, and groin static stretch: 30 sec each",
+        "Drink 20–24 oz water + electrolytes/pinch of salt"
+      ],
+      "drillSlot": {
+        "status": "ready-for-coach-drills",
+        "title": "D-Line Pursuit, Screen-Read & Bag Drills Slot",
+        "description": "Reserved for coach-added pursuit angles, wave drills, and agility bag footwork.",
+        "suggestedTiming": "Place between 10-yd starts and final conditioning."
+      }
+    }
+  ]
+}
