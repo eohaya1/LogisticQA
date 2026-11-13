@@ -1,0 +1,83 @@
+{
+  "lifts": [
+    {
+      "id": "bench-press",
+      "name": "Barbell Bench Press",
+      "unit": "lbs",
+      "category": "upper-body",
+      "notes": "Touch chest with control, drive feet into floor."
+    },
+    {
+      "id": "back-squat",
+      "name": "Barbell Back Squat",
+      "unit": "lbs",
+      "category": "lower-body",
+      "notes": "Hip crease parallel or below, chest tall."
+    },
+    {
+      "id": "trap-bar-deadlift",
+      "name": "Trap Bar Deadlift",
+      "unit": "lbs",
+      "category": "lower-body",
+      "notes": "Clean back posture, full lockout at top."
+    },
+    {
+      "id": "power-clean",
+      "name": "Hang Power Clean",
+      "unit": "lbs",
+      "category": "explosive",
+      "notes": "Explosive triple extension, fast elbows."
+    },
+    {
+      "id": "barbell-row",
+      "name": "Barbell Bent-Over Row",
+      "unit": "lbs",
+      "category": "upper-body",
+      "notes": "Strict torso angle, pause at ribs."
+    }
+  ],
+  "speedMetrics": [
+    {
+      "id": "10-yd-split",
+      "name": "10-Yard Get-Off Split",
+      "unit": "sec",
+      "direction": "lower-is-better",
+      "dLineBenchmarkNote": "Measures initial explosion out of your 3-point stance (HS varsity D-Line strong range: 1.65–1.85s)."
+    },
+    {
+      "id": "40-yd-dash",
+      "name": "40-Yard Dash",
+      "unit": "sec",
+      "direction": "lower-is-better",
+      "dLineBenchmarkNote": "Measures acceleration + pursuit speed (HS DE target: 4.8–5.1s; DT target: 5.1–5.5s)."
+    },
+    {
+      "id": "pro-agility",
+      "name": "5-10-5 Pro Agility Shuttle",
+      "unit": "sec",
+      "direction": "lower-is-better",
+      "dLineBenchmarkNote": "Measures lateral change of direction (HS varsity D-Line strong range: 4.45–4.85s)."
+    },
+    {
+      "id": "l-drill",
+      "name": "3-Cone L-Drill",
+      "unit": "sec",
+      "direction": "lower-is-better",
+      "dLineBenchmarkNote": "Measures hip bend and pass-rush corner speed."
+    },
+    {
+      "id": "broad-jump",
+      "name": "Standing Broad Jump",
+      "unit": "in",
+      "direction": "higher-is-better",
+      "dLineBenchmarkNote": "Horizontal lower-body power output (HS varsity target: 90–106 in)."
+    },
+    {
+      "id": "vertical-jump",
+      "name": "Vertical Jump",
+      "unit": "in",
+      "direction": "higher-is-better",
+      "dLineBenchmarkNote": "Explosive vertical force production (HS varsity target: 25–32 in)."
+    }
+  ]
+}
